@@ -1,9 +1,9 @@
 :root {
-    --color-theme: #857864;
-    --bg-primary: #A5967B;
-    --bg-secondary: #F4F4F4;
+    --color-theme: #AE9E81;
+    --bg-primary: #BAAE96;
+    --bg-secondary: #FAF2CB;
     --bg-hover: rgba(41, 120, 173, .5);
-    --color-primary: #9A8B71;
+    --color-primary: #BAAE96;
     --padding: 1rem;
     --rounded: 0.45rem;
     --shadow: 0 1px 3px rgba(0, 0, 0, .06), 0 1px 2px rgba(0, 0, 0, .12)
@@ -19,7 +19,7 @@
 }
 
 html {
-    color: var(--color-primary);
+    color: var(--bg-primary);
     background: var(--bg-primary);
     background-image: url("./background.png");
     background-size: cover; 
@@ -142,5 +142,21 @@ h3 {
 }
 
 #searchBox:focus-within{
-   
+    box-shadow: 0px 0px 8px 1px var(--color-primary);
+    outline:none;
+}
+
+#searchbar{
+    height:32px;
+    border: none;
+    width:95%;
+    margin-left: 10px;
+    font-size:16px;
+    outline: none;
+    background: none;
+
+    font-size: 10pt;
+    font-style: italic;
+    color: #C7C1BB;
+}   
 
